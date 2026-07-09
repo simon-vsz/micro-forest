@@ -1,3 +1,124 @@
-# TODO
+# Backlog — Micro Forest
 
-- [ ] Create Unity project
+Ideas y mecánicas que no forman parte de la v1.0. Aquí viven sin presionar 
+el alcance del juego actual. Promover algo de aquí al GDD requiere una 
+decisión explícita registrada en 04_DesignDecisions.md.
+
+---
+
+## Progresión / Mundo — Mover la casa
+
+**Descripción:** La casa de Micro podría reubicarse más adelante en el 
+mapa a medida que se desbloquean zonas, acortando el trayecto de cada run.
+
+**Por qué no está en v1.0:** Añade complejidad de diseño de nivel y lógica 
+de transición que no es esencial para un loop pulido y terminado.
+
+**Estado:** Backlog
+
+---
+
+## Mecánicas — Sistema de hambre / energía
+
+**Descripción:** El jugador tendría un recurso que se agota durante la run, 
+forzando el regreso a casa.
+
+**Por qué no está en v1.0:** El regreso ya está incentivado naturalmente 
+por la economía (vender tokens, comprar mejoras). Un sistema de hambre 
+añadiría fricción sin aportar al loop central.
+
+**Estado:** Backlog
+
+---
+
+## Mecánicas — Durabilidad y afilado del machete
+
+**Descripción:** El machete se desgastaría con el uso y requeriría 
+mantenimiento entre runs.
+
+**Por qué no está en v1.0:** Introduce un sistema de mantenimiento 
+paralelo a la progresión permanente, compitiendo por atención del 
+jugador sin sumar al objetivo del loop.
+
+**Estado:** Backlog
+
+---
+
+## Contenido — Campamentos
+
+**Descripción:** Puntos intermedios dentro de una run donde el jugador 
+podría descansar o interactuar antes de continuar.
+
+**Por qué no está en v1.0:** Las runs ya son cortas (1-3 min); un sistema 
+de campamentos añade una capa de decisión intermedia innecesaria para 
+ese alcance.
+
+**Estado:** Backlog
+
+---
+
+## Contenido — Múltiples biomas
+
+**Descripción:** El bosque tendría zonas visual y mecánicamente distintas 
+(ej. bosque nevado, pantano, etc.).
+
+**Por qué no está en v1.0:** Multiplica el trabajo de arte y diseño de 
+nivel sin ser necesario para un loop pulido de un solo bioma bien hecho.
+
+**Estado:** Backlog
+
+---
+
+## Contenido — Árboles gigantes / crafting
+
+**Descripción:** Sistema de recolección de recursos y crafteo de objetos 
+o mejoras a partir de materiales obtenidos en el bosque.
+
+**Por qué no está en v1.0:** La economía de v1.0 es deliberadamente 
+simple (una sola moneda). Un sistema de crafting introduce múltiples 
+recursos, contradiciendo esa decisión.
+
+**Estado:** Backlog
+
+---
+
+## Economía — Múltiples tipos de moneda
+
+**Descripción:** Monedas adicionales (ej. oro, gemas raras) con distintos 
+usos.
+
+**Por qué no está en v1.0:** Se decidió explícitamente simplificar a una 
+sola moneda (Bug Tokens) para mantener la economía legible y fácil de 
+balancear.
+
+**Estado:** Descartado para v1.0 (revisar solo si v2.0 lo justifica)
+
+---
+
+## Mundo / Arte — Ciclo día/noche visual con criaturas nocturnas
+
+**Descripción:** Un ciclo día/noche visible durante la run (no solo el 
+reset entre runs), donde al atardecer aparecen nuevas criaturas o 
+insectos distintos a los del día.
+
+**Por qué no está en v1.0:** Añade una capa de sistemas temporales 
+(iluminación dinámica, spawns condicionados a la hora) y contenido 
+adicional (criaturas nocturnas) que expande significativamente el 
+alcance de arte y gameplay. El reset nocturno "off-screen" entre runs 
+ya cumple la función narrativa sin este costo.
+
+**Estado:** Backlog
+
+---
+
+## Progresión — Construcción estilo Animal Crossing
+
+**Descripción:** Sistema de construcción/decoración de la casa o del 
+entorno, desbloqueado progresivamente a medida que se recolectan bichos.
+
+**Por qué no está en v1.0:** Introduce un sistema de progresión paralelo 
+al Skill Tree y a la economía ya definidos, con su propia lógica de 
+desbloqueo y necesidades de arte. Compite con el foco del loop principal 
+en vez de reforzarlo.
+
+**Estado:** Backlog
