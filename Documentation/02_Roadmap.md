@@ -27,11 +27,12 @@ vegetación, generando insectos.
 moviéndose y "cortando" cajas que representan vegetación.
 **Estimado:** 1.5–2 semanas (ritmo de receso).
 
-### Sprint 2 — Economía mínima
-**Objetivo:** Los insectos se convierten en Bug Tokens; el jugador puede 
-ver su cantidad actual en pantalla (UI mínima, sin pulir).
-**Entregable:** `EconomyManager` funcional + contador visible en HUD.
-**Estimado:** 1 semana (ritmo de receso).
+### Sprint 2 — Economía mínima (ajustado)
+**Objetivo:** Los insectos recolectados se cuentan en un "bolsillo" 
+temporal durante la run. La conversión a Bug Tokens ocurre en el 
+Sprint 3, al volver a casa.
+**Entregable:** Sistema de recolección con imán + contador de bichos 
+en pantalla (aún no es la moneda permanente).
 
 ### Sprint 3 — Ciclo casa-bosque
 **Objetivo:** El jugador puede volver a casa, "dormir", y el bosque se 
