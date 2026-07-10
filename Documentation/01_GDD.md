@@ -15,6 +15,10 @@ un bosque encantado para proteger su castillo. Cada noche, el bosque regresa
 a su estado original. Cada mañana, Micro entra de nuevo, decidida a avanzar 
 un poco más que el día anterior, hasta alcanzar el castillo y rescatarlo.
 
+El espíritu del bosque (una mantis), fue expulsado debido a la maldicion de la
+bruja, y le pide a Micro que le ayude a rescatar a los bichos del bosque; los bichos 
+que Micro recolecta se convierten en Bug Tokens al volver a casa.
+
 *(Esta es la premisa mínima necesaria para justificar el loop. No se expande 
 más en la v1.0 — diálogos, cinemáticas o lore adicional quedan en Backlog 
 salvo que se decida lo contrario explícitamente).*
@@ -44,8 +48,13 @@ relación a este loop, no añadirse en paralelo.
 - Se obtienen al romper vegetación, que libera insectos.
 - Insectos comunes → Bug Tokens estándar. Insectos raros → más Bug Tokens.
 - No hay conversión entre monedas ni sistemas económicos secundarios en v1.0.
+- Micro Va al espiritu del bosque que está al lado de su casa y le da los bichos
+  que recoge a cambio de dinero. 
+- Los bug tokens se usan como material para fabricar las mejoras cuando micro se va
+  a dormir
 
-## 6. Progresión
+
+## 6. Progresión (Macro Powers - Skill Tree)
 
 - Progresión 100% permanente entre runs (no hay pérdida de mejoras).
 - Las mejoras se compran en casa, entre runs, con Bug Tokens.
@@ -54,6 +63,8 @@ relación a este loop, no añadirse en paralelo.
   Capacidad de Bug Tokens.
 - El machete progresa por separado: cambios de material de hoja aumentan 
   daño y desbloquean la capacidad de superar obstáculos específicos.
+- Tugui, el esposo de micro, le deja cartas a medida que avanza en el 
+  bosque. 
 
 ## 7. Mundo y Bloqueos
 
@@ -64,6 +75,9 @@ relación a este loop, no añadirse en paralelo.
 - Superar un obstáculo desbloquea la siguiente zona del bosque.
 - El extremo derecho del mapa es el castillo de la bruja — el destino final 
   del juego.
+- Micro rescata a Yolki (un huevito mascota) que estaba perdido en el bosque. 
+  Yolki acompaña a Micro de forma puramente estética, sin efecto en las mecánicas de 
+  juego.
 
 ## 8. Condición de finalización
 
