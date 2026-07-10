@@ -122,3 +122,20 @@ desbloqueo y necesidades de arte. Compite con el foco del loop principal
 en vez de reforzarlo.
 
 **Estado:** Backlog
+
+---
+
+## Mundo / Mecánicas — Expansión vertical y salto (torres)
+
+**Descripción:** Posibilidad de expandir el mapa más allá del eje 
+horizontal —por ejemplo, torres que requieran saltar para subir, o 
+zonas laterales adicionales al camino principal.
+
+**Por qué no está en v1.0:** El diseño actual del mundo es estrictamente 
+horizontal (izquierda → derecha). Añadir verticalidad o mecánica de 
+salto expande el alcance de nivel, física y diseño de obstáculos más 
+allá de lo necesario para un v1.0 pulido. La arquitectura de movimiento 
+(Rigidbody con gravedad activa) ya deja la puerta abierta para esto sin 
+costo adicional ahora.
+
+**Estado:** Backlog
