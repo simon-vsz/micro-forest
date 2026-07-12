@@ -4,5 +4,7 @@ namespace MicroForest.Core
     public class SaveData
     {
         public int totalBugTokens;
+        public int movementSpeedLevel;
+        public int attackSpeedLevel;
     }
 }
