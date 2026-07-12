@@ -41,7 +41,7 @@ resetea para la siguiente run. Incluye el primer guardado real vía JSON.
 todavía) — salir, cortar, volver, dormir, repetir.
 **Estimado:** 1.5–2 semanas (ritmo de receso).
 
-### Sprint 4 — Progresión
+### Sprint 4 — Progresión COMPLETADO
 **Objetivo:** Skill Tree funcional; el jugador compra mejoras con Bug 
 Tokens y estas persisten entre runs (gracias al guardado del Sprint 3).
 **Entregable:** Al menos 2-3 mejoras reales implementadas (ej. daño, 

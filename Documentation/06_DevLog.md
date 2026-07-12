@@ -33,3 +33,25 @@ Aprendizajes técnicos clave:
   comunicados por eventos.
 - Uso de Coroutines para transiciones de fade (interpolación de alpha 
   con Mathf.Lerp).
+
+
+## 2026-07-12 — Sprint 4: Sistema de progresión y tienda
+
+Implementado ProgressionManager con niveles de mejora persistentes 
+(Velocidad de Movimiento, Velocidad de Ataque), menú de tienda accesible 
+al interactuar con la casa, navegación completa por teclado (sin mouse).
+
+Aprendizajes técnicos clave:
+- Cambio de Input Action Maps (Player/UI) para separar contextos de 
+  control, evitando que el jugador se mueva con el menú abierto.
+- Legacy Input Manager (Project Settings) es un sistema completamente 
+  separado del nuevo Input System — no comparten configuración.
+- El EventSystem puede tener su propio "Actions Asset" desconectado 
+  del proyecto general; hay que verificarlo explícitamente.
+- Selección de UI perdida en el mismo frame al establecerse durante 
+  el procesamiento de un evento de input — se resuelve retrasando la 
+  selección un frame con una Coroutine (yield return null).
+- Herramientas de Editor-only (carpeta Editor/, [MenuItem]) para 
+  utilidades de testing que no deben incluirse en builds finales.
+
+
