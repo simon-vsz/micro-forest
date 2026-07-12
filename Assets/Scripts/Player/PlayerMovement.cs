@@ -12,6 +12,7 @@ namespace MicroForest.Player
         private Rigidbody _rigidbody;
         private PlayerInput _playerInput;
         private Vector2 _moveInput;
+        public float MoveSpeed => _moveSpeed;
 
         private void Awake()
         {
