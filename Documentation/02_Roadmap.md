@@ -20,21 +20,21 @@ y registrando avances en `06_DevLog.md`.
 
 ## 3. Sprints hacia v1.0
 
-### Sprint 1 — Movimiento y corte básico
+### Sprint 1 — Movimiento y corte básico COMPLETADO
 **Objetivo:** Micro se mueve por el mapa horizontal y puede cortar 
 vegetación, generando insectos.
 **Entregable:** Prototipo jugable sin arte final — un cubo o placeholder 
 moviéndose y "cortando" cajas que representan vegetación.
 **Estimado:** 1.5–2 semanas (ritmo de receso).
 
-### Sprint 2 — Economía mínima (ajustado)
+### Sprint 2 — Economía mínima (ajustado) COMPLETADO
 **Objetivo:** Los insectos recolectados se cuentan en un "bolsillo" 
 temporal durante la run. La conversión a Bug Tokens ocurre en el 
 Sprint 3, al volver a casa.
 **Entregable:** Sistema de recolección con imán + contador de bichos 
 en pantalla (aún no es la moneda permanente).
 
-### Sprint 3 — Ciclo casa-bosque
+### Sprint 3 — Ciclo casa-bosque COMPLETADO
 **Objetivo:** El jugador puede volver a casa, "dormir", y el bosque se 
 resetea para la siguiente run. Incluye el primer guardado real vía JSON.
 **Entregable:** Loop completo jugable de principio a fin (sin mejoras 
