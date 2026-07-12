@@ -23,5 +23,13 @@ namespace MicroForest.Core
             string json = File.ReadAllText(SavePath);
             return JsonUtility.FromJson<SaveData>(json);
         }
+
+        public static void DeleteSave()
+        {
+            if (File.Exists(SavePath))
+            {
+                File.Delete(SavePath);
+            }
+        }
     }
 }
