@@ -31,8 +31,23 @@ namespace MicroForest.Economy
         {
             _totalTokens += amount;
             OnTokensChanged?.Invoke(_totalTokens);
+            PersistTokens();
+        }
 
-            Core.SaveData data = new Core.SaveData { totalBugTokens = _totalTokens };
+        public bool SpendTokens(int amount)
+        {
+            if (_totalTokens < amount) return false;
+
+            _totalTokens -= amount;
+            OnTokensChanged?.Invoke(_totalTokens);
+            PersistTokens();
+            return true;
+        }
+
+        private void PersistTokens()
+        {
+            Core.SaveData data = Core.SaveSystem.Load();
+            data.totalBugTokens = _totalTokens;
             Core.SaveSystem.Save(data);
         }
     }
