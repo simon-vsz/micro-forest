@@ -139,3 +139,12 @@ allá de lo necesario para un v1.0 pulido. La arquitectura de movimiento
 costo adicional ahora.
 
 **Estado:** Backlog
+
+---
+
+## Nota de diseño pendiente — Sprint 5
+
+Micro debería poder caminar A TRAVÉS del pasto sin cortarlo (no bloquea 
+el paso), con una ligera reducción de velocidad al atravesarlo — refuerza 
+la sensación de "vegetación real" sin fricción excesiva. Diferente del 
+corte, que sigue requiriendo el ataque explícito.

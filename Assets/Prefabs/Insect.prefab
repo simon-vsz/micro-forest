@@ -153,10 +153,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac84ef9f09ff44263afb05c4bbf3af37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MicroForest.World.Insect
-  _hopForce: 4
-  _hopUpForce: 6
+  _hopForce: 3
+  _hopUpForce: 5
   _attractSpeed: 4
   _pickupDistance: 0.3
+  _attractSpeedMultiplier: 1.5
   _renderer: {fileID: 1016847394685216373}
   _commonMaterial: {fileID: 2100000, guid: e696bd483c7c84f099b25dac84748d53, type: 2}
   _rareMaterial: {fileID: 2100000, guid: 09cbea9996d484cc5aa58d19eada3d34, type: 2}
