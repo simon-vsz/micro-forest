@@ -95,17 +95,15 @@ balancear.
 
 ---
 
-## Mundo / Arte — Ciclo día/noche visual con criaturas nocturnas
+## Mundo / Arte — Criaturas nocturnas
 
-**Descripción:** Un ciclo día/noche visible durante la run (no solo el 
-reset entre runs), donde al atardecer aparecen nuevas criaturas o 
-insectos distintos a los del día.
+**Descripción:** Criaturas o insectos distintos que aparecen 
+específicamente durante la noche (el ciclo día/noche base ya es parte 
+de la v1.0 desde el Sprint 5 — ver 04_DesignDecisions.md).
 
-**Por qué no está en v1.0:** Añade una capa de sistemas temporales 
-(iluminación dinámica, spawns condicionados a la hora) y contenido 
-adicional (criaturas nocturnas) que expande significativamente el 
-alcance de arte y gameplay. El reset nocturno "off-screen" entre runs 
-ya cumple la función narrativa sin este costo.
+**Por qué no está en v1.0:** Es contenido adicional (nuevos tipos de 
+insectos/criaturas) sobre un sistema que ya existe, no la base del 
+ciclo día/noche en sí.
 
 **Estado:** Backlog
 

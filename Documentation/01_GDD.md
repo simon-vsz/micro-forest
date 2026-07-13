@@ -34,13 +34,16 @@ relación a este loop, no añadirse en paralelo.
 
 ## 4. Estructura de una Run
 
-- Duración objetivo: 1–3 minutos.
-- El jugador decide voluntariamente cuándo volver a casa; no hay límite de 
-  tiempo forzado ni mecánica de energía/hambre.
-- El incentivo para volver es puramente de progresión: vender Bug Tokens, 
-  dormir, comprar mejoras.
-- No hay penalización por run "fallida" — el concepto de fallo no existe 
-  como tal, solo el de "qué tan lejos llegué esta vez".
+- Duración de un día: corta (1-2 minutos), desde que sales de casa hasta 
+  que anochece por completo.
+- El jugador decide voluntariamente cuándo volver a casa, pero el tiempo 
+  es limitado: si anochece mientras Micro sigue en el bosque, muere y 
+  revive en casa (como si hubiera dormido), perdiendo los bichos sin 
+  convertir de su bolsillo. El progreso permanente (Bug Tokens ya 
+  convertidos, mejoras compradas) nunca se pierde.
+- Hay una señal visual/sonora de advertencia cuando se acerca la noche.
+- El incentivo para volver a tiempo es evitar esta pérdida, además de 
+  vender Bug Tokens, dormir, y comprar mejoras.
 
 ## 5. Economía
 
@@ -65,20 +68,35 @@ relación a este loop, no añadirse en paralelo.
   daño y desbloquean la capacidad de superar obstáculos específicos.
 - Tugui, el esposo de micro, le deja cartas a medida que avanza en el 
   bosque. 
+- El machete progresa a través de 3 materiales, cada uno con Tiers 
+  I/II/III: **Machetini** (inicial), **Carrotini** (requerido para 
+  obstáculos de la Zona 2), **Estrellini** (zonas posteriores).
 
 ## 7. Mundo y Bloqueos
 
-- Mapa horizontal, un solo eje de avance (izquierda → derecha).
-- Vista superior en 3/4, cámara fija (sin cámara libre ni rotaciones).
-- El avance está limitado por obstáculos que requieren un nivel de machete 
-  específico para superarse.
-- Superar un obstáculo desbloquea la siguiente zona del bosque.
-- El extremo derecho del mapa es el castillo de la bruja — el destino final 
-  del juego.
-- Micro rescata a Yolki (un huevito mascota) que estaba perdido en el bosque. 
-  Yolki acompaña a Micro de forma puramente estética, sin efecto en las mecánicas de 
-  juego.
-
+- Mapa horizontal, dividido en 4 zonas conectadas por 3 obstáculos 
+  principales, cada uno ligado a un material de machete.
+- Vista superior en 3/4, cámara fija.
+- La vegetación tiene distinta resistencia: pasto (1 golpe), arbustos 
+  (3 golpes, bloquean el paso), árboles (10 golpes). El pasto de cada 
+  zona nueva tiene su propia identidad visual (ej. pasto azul en Zona 2) 
+  y resistencia creciente.
+- Toda la vegetación normal se resetea cada noche.
+- **Obstáculos-jefe**: a diferencia de la vegetación normal, un 
+  obstáculo-jefe (ej. el árbol del puente entre Zona 1 y 2) requiere un 
+  material de machete mínimo para poder romperse dentro del tiempo 
+  restante del día. Su progreso de corte se resetea cada noche igual que 
+  la vegetación normal, pero una vez destruido por completo, es 
+  permanente — nunca reaparece.
+- Cruzar un obstáculo-jefe desbloquea automáticamente un atajo directo 
+  (tipo teleférico) entre la casa y la zona recién alcanzada, evitando 
+  tener que recorrer todo el bosque de nuevo en cada run.
+- El extremo derecho del mapa es el castillo de la bruja — el destino 
+  final del juego (Zona 4).
+- **Zona 2**: contiene a Yolki, encerrado en una jaula con mucha 
+  resistencia (inrompible inicialmente), motivando al jugador a mejorar 
+  su ataque para poder rescatarlo.
+  
 ## 8. Condición de finalización
 
 Micro Forest v1.0 tiene un final formal: al llegar al castillo y rescatar 

@@ -35,3 +35,20 @@ el mismo sistema ya descrito como Skill Tree en la Sección 6 del GDD.
 aparte, generando una duplicación de progresión con Bug Tokens. Se 
 unificó para mantener un único sistema de mejoras permanentes, tal 
 como establece el Core Gameplay Loop.
+
+---
+
+## 2026-07-12 — Reversión: ciclo día/noche completo entra a v1.0
+
+**Decisión:** Se revierte la exclusión previa de "sistema complejo de 
+ciclo noche/día" (originalmente en Backlog). La v1.0 ahora incluye un 
+ciclo día/noche con temporizador, aviso de advertencia, y consecuencia 
+real de morir si Micro no regresa a casa a tiempo (pierde el bolsillo, 
+revive en casa).
+
+**Razón:** Al diseñar el mundo (Sprint 5), se determinó que esta mecánica 
+aporta tensión genuina y refuerza el core loop, en vez de ser solo 
+decoración visual. La decisión se tomó conscientemente, priorizando 
+un juego que realmente atrape al jugador por encima de mantener el 
+alcance mínimo viable. Se acepta el costo adicional de desarrollo que 
+esto implica.
